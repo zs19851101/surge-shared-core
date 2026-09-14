@@ -1,0 +1,29 @@
+[Proxy Group]
+# ============================================================
+# 良知网络 V2.3 五国 Smart
+# 显示顺序按递进逻辑排列
+# ============================================================
+
+Proxy = select, IPLC五国Smart, 手动选择, "🇭🇰 香港节点", "🇨🇳 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点"
+
+手动选择 = select, IPLC手动, "🇭🇰 香港节点", "🇨🇳 台湾节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇺🇸 美国节点"
+
+IPLC手动 = select, include-all-proxies=true, policy-regex-filter=^(香港[0-9]+|HK[0-9]+|台湾[0-9]+|TW[0-9]+|新加坡[0-9]+|SG[0-9]+|日本[0-9]+|JP[0-9]+|美国[0-9]+|US[0-9]+)$
+
+IPLC五国Smart = smart, include-all-proxies=true, policy-regex-filter=^(香港[0-9]+|HK[0-9]+|台湾[0-9]+|TW[0-9]+|新加坡[0-9]+|SG[0-9]+|日本[0-9]+|JP[0-9]+|美国[0-9]+|US[0-9]+)$
+
+🇭🇰 香港节点 = smart, include-all-proxies=true, policy-regex-filter=^(香港[0-9]+|HK[0-9]+)$
+
+🇨🇳 台湾节点 = smart, include-all-proxies=true, policy-regex-filter=^(台湾[0-9]+|TW[0-9]+)$
+
+🇸🇬 新加坡节点 = smart, include-all-proxies=true, policy-regex-filter=^(新加坡[0-9]+|SG[0-9]+)$
+
+🇯🇵 日本节点 = smart, include-all-proxies=true, policy-regex-filter=^(日本[0-9]+|JP[0-9]+)$
+
+🇺🇸 美国节点 = smart, include-all-proxies=true, policy-regex-filter=^(美国[0-9]+|US[0-9]+)$
+
+GPT专线 = select, GPT主节点池, GPT应急-IPLC
+
+GPT主节点池 = smart, include-all-proxies=true, policy-regex-filter=GPT
+
+GPT应急-IPLC = select, IPLC五国Smart, "🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇯🇵 日本节点", "🇨🇳 台湾节点", "🇭🇰 香港节点", 手动选择
