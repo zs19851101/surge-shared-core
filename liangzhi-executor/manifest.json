@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "runtime_version": 26,
+  "files": [],
+  "tasks": {},
+  "note": "Public control manifest only. No credentials, private logs, LAN details, or Emby metadata are stored here."
+}
