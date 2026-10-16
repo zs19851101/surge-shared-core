@@ -1,0 +1,1 @@
+{"id":"setup-cloudflared-local","steps":[{"script":"install_cloudflared_local.py","args":[]}]}
