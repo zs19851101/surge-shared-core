@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 11,
-  "task": "setup-cloudflared-local",
-  "note": "Retry dispatch: install cloudflared into the local executor bin directory only. External exposure remains disabled."
+  "seq": 12,
+  "task": "setup-named-tunnel-local-v1",
+  "note": "Create and run the named Cloudflare Tunnel locally with no DNS route or public hostname. External exposure remains disabled."
 }
