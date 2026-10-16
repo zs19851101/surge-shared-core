@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "runtime_version": 33,
+  "runtime_version": 34,
   "files": [
     {"path": "runtime/anime_v27_identity_audit.py", "sha256": ""},
     {"path": "runtime/anime_v28_evidence_plan.py", "sha256": ""},
@@ -10,18 +10,21 @@
     {"path": "runtime/install_result_gateway_v1.py", "sha256": ""},
     {"path": "runtime/install_cloudflared_local.py", "sha256": ""},
     {"path": "runtime/setup_named_tunnel_local_v1.py", "sha256": ""},
+    {"path": "runtime/create_named_tunnel_once_v1.py", "sha256": ""},
     {"path": "tasks/anime-v28-safe.json", "sha256": ""},
     {"path": "tasks/anime-v29-strong-resolve.json", "sha256": ""},
     {"path": "tasks/setup-result-gateway-v1.json", "sha256": ""},
     {"path": "tasks/setup-cloudflared-local.json", "sha256": ""},
-    {"path": "tasks/setup-named-tunnel-local-v1.json", "sha256": ""}
+    {"path": "tasks/setup-named-tunnel-local-v1.json", "sha256": ""},
+    {"path": "tasks/create-named-tunnel-once-v1.json", "sha256": ""}
   ],
   "tasks": {
     "anime-v28-safe": "tasks/anime-v28-safe.json",
     "anime-v29-strong-resolve": "tasks/anime-v29-strong-resolve.json",
     "setup-result-gateway-v1": "tasks/setup-result-gateway-v1.json",
     "setup-cloudflared-local": "tasks/setup-cloudflared-local.json",
-    "setup-named-tunnel-local-v1": "tasks/setup-named-tunnel-local-v1.json"
+    "setup-named-tunnel-local-v1": "tasks/setup-named-tunnel-local-v1.json",
+    "create-named-tunnel-once-v1": "tasks/create-named-tunnel-once-v1.json"
   },
-  "note": "Public control manifest only. Adds a named Cloudflare Tunnel bound to the localhost result gateway without DNS route or public hostname. No credentials, private logs, LAN details, or Emby metadata are stored here."
+  "note": "Public control manifest only. Adds a one-time named Tunnel creation repair step. External exposure remains disabled; no credentials or private logs are stored here."
 }
