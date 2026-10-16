@@ -1,13 +1,15 @@
 {
   "schema": 1,
-  "runtime_version": 28,
+  "runtime_version": 29,
   "files": [
     {"path": "runtime/anime_v27_identity_audit.py", "sha256": ""},
     {"path": "runtime/anime_v28_evidence_plan.py", "sha256": ""},
-    {"path": "tasks/anime-v26.json", "sha256": ""}
+    {"path": "runtime/anime_series_identity_guard_snapshot.py", "sha256": ""},
+    {"path": "runtime/anime_series_identity_guard_verify.py", "sha256": ""},
+    {"path": "tasks/anime-v28-safe.json", "sha256": ""}
   ],
   "tasks": {
-    "anime-v28": "tasks/anime-v26.json"
+    "anime-v28-safe": "tasks/anime-v28-safe.json"
   },
-  "note": "Public control manifest only. No credentials, private logs, LAN details, or Emby metadata are stored here."
+  "note": "Public control manifest only. V2.9 safety gate freezes Series identity fields during guarded tasks. No credentials, private logs, LAN details, or Emby metadata are stored here."
 }
