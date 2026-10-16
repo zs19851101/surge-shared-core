@@ -1,0 +1,1 @@
+{"id":"anime-v29-strong-resolve","steps":[{"script":"anime_series_identity_guard_snapshot.py","args":[]},{"script":"anime_v29_strong_provider_resolve.py","args":[]},{"script":"anime_series_identity_guard_verify.py","args":[]}]}
