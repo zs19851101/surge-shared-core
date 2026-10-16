@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 9,
-  "task": "setup-result-gateway-v1",
-  "note": "Install localhost-only read-only result gateway. External exposure remains disabled."
+  "seq": 10,
+  "task": "setup-cloudflared-local",
+  "note": "Install cloudflared into the local executor bin directory only. External exposure remains disabled."
 }
