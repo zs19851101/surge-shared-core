@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 7,
-  "task": "anime-v28-safe",
-  "note": "Guarded read-only resume: snapshot and verify protected Series identity fields. No credentials or private logs stored here."
+  "seq": 8,
+  "task": "anime-v29-strong-resolve",
+  "note": "Guarded read-only strong-provider identity resolution. Series identity fields remain frozen. No credentials or private logs stored here."
 }
