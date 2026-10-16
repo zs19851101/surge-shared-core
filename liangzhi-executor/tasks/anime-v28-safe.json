@@ -1,0 +1,1 @@
+{"id":"anime-v28-safe","steps":[{"script":"anime_series_identity_guard_snapshot.py","args":[]},{"script":"anime_v28_evidence_plan.py","args":[]},{"script":"anime_jp_live_full_audit.py","args":[]},{"script":"anime_jp_foreign_classifier.py","args":[]},{"script":"anime_series_identity_guard_verify.py","args":[]}]}
