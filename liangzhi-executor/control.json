@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 4,
-  "task": "anime-v27",
+  "seq": 5,
+  "task": "anime-v28",
   "note": "LiangZhi local executor control plane; contains no credentials or private logs."
 }
