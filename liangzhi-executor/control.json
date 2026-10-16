@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 15,
-  "task": "activate-existing-tunnel-local-v1",
-  "note": "Activate the already-created named Cloudflare Tunnel locally and persist it with LaunchAgent. No DNS route or public hostname is created; external exposure remains disabled."
+  "seq": 16,
+  "task": "fix-tunnel-health-only-v1",
+  "note": "Repair Cloudflare ingress ordering and expose only /health for connector verification. Report endpoints remain blocked."
 }
