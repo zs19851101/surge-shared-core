@@ -1,7 +1,12 @@
 {
   "schema": 1,
-  "runtime_version": 26,
-  "files": [],
-  "tasks": {},
+  "runtime_version": 27,
+  "files": [
+    {"path": "runtime/anime_v27_identity_audit.py", "sha256": ""},
+    {"path": "tasks/anime-v26.json", "sha256": ""}
+  ],
+  "tasks": {
+    "anime-v27": "tasks/anime-v26.json"
+  },
   "note": "Public control manifest only. No credentials, private logs, LAN details, or Emby metadata are stored here."
 }
