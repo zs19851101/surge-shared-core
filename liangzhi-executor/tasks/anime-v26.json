@@ -1,1 +1,1 @@
-{"id":"anime-v27","steps":[{"script":"anime_v27_identity_audit.py","args":[]},{"script":"anime_jp_live_full_audit.py","args":[]},{"script":"anime_jp_foreign_classifier.py","args":[]}]}
+{"id":"anime-v28","steps":[{"script":"anime_v28_evidence_plan.py","args":[]},{"script":"anime_jp_live_full_audit.py","args":[]},{"script":"anime_jp_foreign_classifier.py","args":[]}]}
