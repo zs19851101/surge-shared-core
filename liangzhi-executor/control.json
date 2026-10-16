@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 16,
+  "seq": 17,
   "task": "fix-tunnel-health-only-v1",
-  "note": "Repair Cloudflare ingress ordering and expose only /health for connector verification. Report endpoints remain blocked."
+  "note": "Retry dispatch: repair Cloudflare ingress ordering and expose only /health for connector verification. Report endpoints remain blocked."
 }
