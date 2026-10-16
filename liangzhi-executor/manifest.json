@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "runtime_version": 36,
+  "runtime_version": 37,
   "files": [
     {"path": "runtime/anime_v27_identity_audit.py", "sha256": ""},
     {"path": "runtime/anime_v28_evidence_plan.py", "sha256": ""},
@@ -13,6 +13,7 @@
     {"path": "runtime/create_named_tunnel_once_v1.py", "sha256": ""},
     {"path": "runtime/activate_existing_tunnel_local_v1.py", "sha256": ""},
     {"path": "runtime/fix_tunnel_health_only_v1.py", "sha256": ""},
+    {"path": "runtime/end_to_end_probe_v1.py", "sha256": ""},
     {"path": "tasks/anime-v28-safe.json", "sha256": ""},
     {"path": "tasks/anime-v29-strong-resolve.json", "sha256": ""},
     {"path": "tasks/setup-result-gateway-v1.json", "sha256": ""},
@@ -20,7 +21,8 @@
     {"path": "tasks/setup-named-tunnel-local-v1.json", "sha256": ""},
     {"path": "tasks/create-named-tunnel-once-v1.json", "sha256": ""},
     {"path": "tasks/activate-existing-tunnel-local-v1.json", "sha256": ""},
-    {"path": "tasks/fix-tunnel-health-only-v1.json", "sha256": ""}
+    {"path": "tasks/fix-tunnel-health-only-v1.json", "sha256": ""},
+    {"path": "tasks/end-to-end-probe-v1.json", "sha256": ""}
   ],
   "tasks": {
     "anime-v28-safe": "tasks/anime-v28-safe.json",
@@ -30,7 +32,8 @@
     "setup-named-tunnel-local-v1": "tasks/setup-named-tunnel-local-v1.json",
     "create-named-tunnel-once-v1": "tasks/create-named-tunnel-once-v1.json",
     "activate-existing-tunnel-local-v1": "tasks/activate-existing-tunnel-local-v1.json",
-    "fix-tunnel-health-only-v1": "tasks/fix-tunnel-health-only-v1.json"
+    "fix-tunnel-health-only-v1": "tasks/fix-tunnel-health-only-v1.json",
+    "end-to-end-probe-v1": "tasks/end-to-end-probe-v1.json"
   },
-  "note": "Public control manifest only. Adds a repair that exposes only the /health path for connector verification; report endpoints remain blocked. No credentials, private logs, LAN details, or Emby metadata are stored here."
+  "note": "Public control manifest only. Adds a safe local-executor-only end-to-end probe that writes one allowlisted summary and makes no network configuration changes. No credentials, private logs, LAN details, or Emby metadata are stored here."
 }
