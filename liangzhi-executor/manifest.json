@@ -1,15 +1,18 @@
 {
   "schema": 1,
-  "runtime_version": 29,
+  "runtime_version": 30,
   "files": [
     {"path": "runtime/anime_v27_identity_audit.py", "sha256": ""},
     {"path": "runtime/anime_v28_evidence_plan.py", "sha256": ""},
     {"path": "runtime/anime_series_identity_guard_snapshot.py", "sha256": ""},
     {"path": "runtime/anime_series_identity_guard_verify.py", "sha256": ""},
-    {"path": "tasks/anime-v28-safe.json", "sha256": ""}
+    {"path": "runtime/anime_v29_strong_provider_resolve.py", "sha256": ""},
+    {"path": "tasks/anime-v28-safe.json", "sha256": ""},
+    {"path": "tasks/anime-v29-strong-resolve.json", "sha256": ""}
   ],
   "tasks": {
-    "anime-v28-safe": "tasks/anime-v28-safe.json"
+    "anime-v28-safe": "tasks/anime-v28-safe.json",
+    "anime-v29-strong-resolve": "tasks/anime-v29-strong-resolve.json"
   },
-  "note": "Public control manifest only. V2.9 safety gate freezes Series identity fields during guarded tasks. No credentials, private logs, LAN details, or Emby metadata are stored here."
+  "note": "Public control manifest only. V2.9 keeps Series identity fields frozen and adds read-only exact Provider ID resolution. No credentials, private logs, LAN details, or Emby metadata are stored here."
 }
