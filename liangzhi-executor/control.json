@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 5,
-  "task": "anime-v28",
-  "note": "LiangZhi local executor control plane; contains no credentials or private logs."
+  "seq": 6,
+  "task": "noop",
+  "note": "Emergency hold: metadata writes paused pending verification. No credentials or private logs stored here."
 }
