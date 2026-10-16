@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 8,
-  "task": "anime-v29-strong-resolve",
-  "note": "Guarded read-only strong-provider identity resolution. Series identity fields remain frozen. No credentials or private logs stored here."
+  "seq": 9,
+  "task": "setup-result-gateway-v1",
+  "note": "Install localhost-only read-only result gateway. External exposure remains disabled."
 }
