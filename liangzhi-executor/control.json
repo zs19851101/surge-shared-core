@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 18,
-  "task": "noop",
-  "note": "Minimal end-to-end poller acceptance test after Tunnel recovery; no local job execution."
+  "seq": 19,
+  "task": "end-to-end-probe-v1",
+  "note": "Safe end-to-end verification only: write one allowlisted summary under LiangZhiLocalExecutor reports. No R86S, Surge, NAS, DDNS, PT, Plex/Emby, firewall, route, or tunnel configuration changes."
 }
