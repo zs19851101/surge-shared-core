@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 12,
+  "seq": 13,
   "task": "setup-named-tunnel-local-v1",
-  "note": "Create and run the named Cloudflare Tunnel locally with no DNS route or public hostname. External exposure remains disabled."
+  "note": "Retry named Tunnel setup after adding robust local diagnostics. No DNS route or public hostname. External exposure remains disabled."
 }
