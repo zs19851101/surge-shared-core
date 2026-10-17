@@ -1,0 +1,1 @@
+{"id":"anime-v30-apply-two-strong-names","steps":[{"script":"anime_series_identity_guard_snapshot.py","args":[]},{"script":"anime_v30_apply_two_strong_names.py","args":[]},{"script":"anime_series_identity_guard_verify.py","args":[]}]}
