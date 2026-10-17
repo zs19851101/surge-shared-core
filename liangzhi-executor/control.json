@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 19,
-  "task": "end-to-end-probe-v1",
-  "note": "Safe end-to-end verification only: write one allowlisted summary under LiangZhiLocalExecutor reports. No R86S, Surge, NAS, DDNS, PT, Plex/Emby, firewall, route, or tunnel configuration changes."
+  "seq": 20,
+  "task": "anime-v30-apply-two-strong-names",
+  "note": "Guarded anime metadata refinement: apply exactly two previously resolved strong-evidence Person name updates with pre-snapshot, post-verify, and rollback on failure."
 }
