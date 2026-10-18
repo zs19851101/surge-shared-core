@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":38,
-  "task":"anime-v41-resolve-live-person-and-prepare",
-  "note":"Minimal repair after V4.0 proved Emby Person ID 80840 stale (404). Run Series identity guard first, resolve the live Person uniquely by exact TMDB 4055060, confirm Primary absent, validate exact Commons image and create rollback backup. No Emby write and no mature network data-plane changes."
+  "seq":39,
+  "task":"anime-v42-export-first5-pilot-candidates",
+  "note":"Export the concrete first 5-person Emby pilot template from existing local audit/prep data. Read-only only: run Series identity guard first, then fill name-only / image-only / name-image / voice-cleanup / no-op slots only when evidence is sufficient; leave blocked slots explicit rather than guessing. No Emby writes and no mature network data-plane changes."
 }
