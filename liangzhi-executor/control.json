@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":45,
-  "task":"anime-v33-automation-health",
-  "note":"Read-only diagnostic after seq44 produced no V4.2 report. Report poller last_seq/last_task to determine whether LocalExecutor consumed runtime 52/seq44. No Emby writes and no network changes."
+  "seq":46,
+  "task":"anime-v42-export-first5-pilot-candidates",
+  "note":"Executor/Result Bridge health confirmed PASS at seq45 (2026-10-19 06:34 local). Re-run V4.2 now that runtime 52 is deployed. Read-only only: Series identity guard first; exporter must emit PASS/PARTIAL/ERROR diagnostics; no Emby writes, no network changes, no Series identity changes."
 }
