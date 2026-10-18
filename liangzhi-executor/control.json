@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 21,
-  "task": "restore-gateway-verify-seq20-and-refresh-anime",
-  "note": "Guarded recovery and verification task."
+  "seq": 22,
+  "task": "anime-v31-export-next-candidates",
+  "note": "Read-only export of next high-confidence anime candidates after seq20/21 gates passed."
 }
