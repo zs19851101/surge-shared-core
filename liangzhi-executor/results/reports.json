@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "reports": [
+    {
+      "name": "anime-series-identity-guard-result.json",
+      "size": 130,
+      "mtime": 1792292248.9003212
+    },
+    {
+      "name": "anime-v29-strong-provider-resolve-summary.txt",
+      "size": 170,
+      "mtime": 1792282824.0021565
+    },
+    {
+      "name": "anime-v27-identity-audit-summary.txt",
+      "size": 195,
+      "mtime": 1792282807.5230062
+    },
+    {
+      "name": "anime-seq20-verification-summary.txt",
+      "size": 157,
+      "mtime": 1792282739.848111
+    },
+    {
+      "name": "result-gateway-restore-summary.txt",
+      "size": 98,
+      "mtime": 1792282732.8917482
+    },
+    {
+      "name": "anime-v30-apply-two-strong-names-summary.txt",
+      "size": 190,
+      "mtime": 1792282695.280284
+    },
+    {
+      "name": "end-to-end-probe-v1-summary.txt",
+      "size": 124,
+      "mtime": 1792131528.040636
+    },
+    {
+      "name": "named-tunnel-activate-summary.txt",
+      "size": 185,
+      "mtime": 1792128000.2253919
+    },
+    {
+      "name": "named-tunnel-create-summary.txt",
+      "size": 374,
+      "mtime": 1792127670.0452168
+    },
+    {
+      "name": "named-tunnel-local-summary.txt",
+      "size": 409,
+      "mtime": 1792127353.2996373
+    },
+    {
+      "name": "cloudflared-install-summary.txt",
+      "size": 306,
+      "mtime": 1792126178.5812316
+    },
+    {
+      "name": "result-gateway-setup-summary.txt",
+      "size": 198,
+      "mtime": 1792124853.62954
+    },
+    {
+      "name": "anime-jp-foreign-classified-summary.txt",
+      "size": 347,
+      "mtime": 1792118397.7549953
+    },
+    {
+      "name": "anime-jp-live-full-audit-summary.txt",
+      "size": 479,
+      "mtime": 1792118396.4671245
+    },
+    {
+      "name": "anime-v28-evidence-plan-summary.txt",
+      "size": 153,
+      "mtime": 1792118366.3871713
+    }
+  ]
+}
