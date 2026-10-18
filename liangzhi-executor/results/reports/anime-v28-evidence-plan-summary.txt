@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v28-evidence-plan-summary.txt",
+  "content": "日漫 V2.8 身份证据分层（只读）\n剩余外文姓名人物: 98\n强证据(TMDB/IMDb): 62\n中证据(其他Provider): 0\n弱证据(无Provider): 36\n"
+}
