@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":41,
+  "seq":42,
   "task":"anime-v42-export-first5-pilot-candidates",
-  "note":"Resume Emby API pilot immediately after seq40 health PASS. Export the concrete first 5-person pilot template from existing local audit/prep data. Read-only only: run Series identity guard first; fill name-only / image-only / name-image / voice-cleanup / no-op only where evidence is sufficient; mark blocked slots explicitly; no Emby writes and no mature network data-plane changes."
+  "note":"Retry once after seq41 produced no Result Bridge report. Runtime 51 manifest and task are present; seq40 health previously PASS. Read-only only: run Series identity guard then export concrete first 5-person pilot template; no Emby writes and no mature network data-plane changes."
 }
