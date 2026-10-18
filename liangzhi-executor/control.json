@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":31,
-  "task":"anime-v37-provider-avatar-resolution-plan",
-  "note":"Minimal re-dispatch: seq30 report was not produced although Result Bridge completed successfully. Re-run the existing read-only V3.7 provider-ID resolution plan; no Emby writes and no mature network data-plane changes."
+  "seq":32,
+  "task":"anime-v38-resolve-wikidata-avatars",
+  "note":"Resolve the 97 provider-backed missing-avatar people by exact TMDB Person ID to Wikidata P4985 and Commons P18. Read-only candidate resolution; no Emby writes and no mature network data-plane changes."
 }
