@@ -2,14 +2,14 @@
   "ok": true,
   "reports": [
     {
+      "name": "anime-series-identity-guard-result.json",
+      "size": 130,
+      "mtime": 1792316841.4127295
+    },
+    {
       "name": "anime-v36-avatar-probe-summary.txt",
       "size": 229,
       "mtime": 1792312985.1989608
-    },
-    {
-      "name": "anime-series-identity-guard-result.json",
-      "size": 130,
-      "mtime": 1792312968.8402169
     },
     {
       "name": "anime-v35-actionable-role-targets-summary.txt",
