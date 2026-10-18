@@ -2,6 +2,11 @@
   "ok": true,
   "reports": [
     {
+      "name": "anime-v33-automation-health-summary.txt",
+      "size": 272,
+      "mtime": 1792297624.727328
+    },
+    {
       "name": "anime-v32-role-avatar-summary.txt",
       "size": 359,
       "mtime": 1792295229.434333
