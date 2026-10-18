@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":37,
-  "task":"anime-v40-prepare-single-commons-avatar",
-  "note":"Minimal re-dispatch after seq36 produced no mirrored V4.0 summary. Re-run write-preparation only: Series identity guard; verify live Emby Person 80840 still has TMDB 4055060; confirm Primary absent; download/validate exact Commons image; create rollback backup. No Emby write and no mature network data-plane changes."
+  "seq":38,
+  "task":"anime-v41-resolve-live-person-and-prepare",
+  "note":"Minimal repair after V4.0 proved Emby Person ID 80840 stale (404). Run Series identity guard first, resolve the live Person uniquely by exact TMDB 4055060, confirm Primary absent, validate exact Commons image and create rollback backup. No Emby write and no mature network data-plane changes."
 }
