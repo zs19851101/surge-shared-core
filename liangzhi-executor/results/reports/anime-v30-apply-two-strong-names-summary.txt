@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v30-apply-two-strong-names-summary.txt",
+  "content": "日漫 V3.0 两名强证据人物最小写入\nstatus: PASS\ncandidate_count: 2\nrenamed: 0\nalready_correct: 2\nverified: true\nscope: person-name-only\nnetwork_changes: none\nseries_changes: none\n"
+}

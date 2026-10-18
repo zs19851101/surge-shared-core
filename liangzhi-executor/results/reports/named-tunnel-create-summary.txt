@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "named-tunnel-create-summary.txt",
+  "content": "status: PASS\nTunnel credentials written to /Users/zhangshu/.cloudflared/24c3d2a8-c8ce-4374-bac8-bdd8fc8ff57d.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel.\n\nCreated tunnel liangzhi-result-gateway with id 24c3d2a8-c8ce-4374-bac8-bdd8fc8ff57d\nexternal_exposure: False\n"
+}

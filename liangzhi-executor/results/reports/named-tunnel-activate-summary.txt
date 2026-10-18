@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "named-tunnel-activate-summary.txt",
+  "content": "LiangZhi existing tunnel activation\nstatus: PASS\nlaunchagent_loaded: True\norigin: http://127.0.0.1:8765\ndns_route_created: False\npublic_hostname_created: False\nexternal_exposure: False\n"
+}

@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-seq20-verification-summary.txt",
+  "content": "动漫-日漫 seq20 验收\nstatus: PASS\nseq20_summary_pass: true\napi_readback_verified: true\nseries_guard_pass: true\ndrift_count: 0\ndata_plane_changes: none\n"
+}

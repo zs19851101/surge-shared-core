@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "result-gateway-restore-summary.txt",
+  "content": "status: PASS\nlocal_health: true\npublic_health: true\npublic_reports: true\ndata_plane_changes: none\n"
+}

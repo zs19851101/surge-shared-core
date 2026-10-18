@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "cloudflared-install-summary.txt",
+  "content": "LiangZhi cloudflared local install\nstatus: PASS\narch: arm64\nrelease: 2026.10.1\nasset: cloudflared-darwin-arm64.tgz\ninstalled_path: /Users/zhangshu/Library/Application Support/LiangZhiLocalExecutor/bin/cloudflared\nversion: cloudflared version 2026.10.1 (built 2026-10-15-17:08 UTC)\nexternal_exposure: False\n"
+}

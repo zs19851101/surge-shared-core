@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v29-strong-provider-resolve-summary.txt",
+  "content": "日漫 V2.9 强证据身份闭环（只读）\n强证据输入: 62\n唯一身份且有中文名: 2\n唯一身份但无中文名: 6\nProvider 冲突: 0\nWikidata 无匹配: 54\n"
+}

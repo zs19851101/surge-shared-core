@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "named-tunnel-local-summary.txt",
+  "content": "LiangZhi named tunnel local setup\nstatus: FAIL\nreason: unexpected exception\ndetail: Traceback (most recent call last): |   File \"/Users/zhangshu/Library/Application Support/LiangZhiLocalExecutor/scripts/setup_named_tunnel_local_v1.py\", line 34, in <module> |     for r in rows: | TypeError: 'NoneType' object is not iterable | \ndns_route_created: False\npublic_hostname_created: False\nexternal_exposure: False\n"
+}

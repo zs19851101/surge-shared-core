@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v27-identity-audit-summary.txt",
+  "content": "日漫 V2.7 外文姓名证据审计（只读）\n剩余外文姓名人物: 98\n有任意 ProviderId: 62\n有头像: 18\n无头像: 80\nProvider覆盖: {\"Imdb\": 14, \"Tmdb\": 29, \"Tvdb\": 2, \"tmdb\": 33}\n"
+}

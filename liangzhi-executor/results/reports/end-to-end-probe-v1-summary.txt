@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "end-to-end-probe-v1-summary.txt",
+  "content": "LiangZhi End-to-End Probe V1\ntime: 2026-10-16T14:18:48.040356\nresult: PASS\nscope: local-executor-only\nnetwork_changes: none\n"
+}
