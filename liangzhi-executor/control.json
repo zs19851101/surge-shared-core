@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 26,
+  "seq": 27,
   "task": "anime-v35-export-actionable-role-targets",
-  "note": "Export high-confidence empty Role targets using same-person, same-series, single-known-role evidence. Read-only; no Emby writes; no mature network data-plane changes."
+  "note": "Retry the actionable empty Role export with fail-safe summary generation after seq26 passed the Series guard but produced no v35 summary. Read-only; no Emby writes; no mature network data-plane changes."
 }
