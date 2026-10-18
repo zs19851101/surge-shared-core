@@ -2,9 +2,16 @@ name: LiangZhi Result Bridge
 on:
   push:
     paths:
+      - 'liangzhi-executor/control.json'
       - 'liangzhi-executor/bridge-trigger.txt'
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: liangzhi-result-bridge
+  cancel-in-progress: false
 jobs:
   fetch-result:
     runs-on: ubuntu-latest
@@ -14,15 +21,24 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p liangzhi-executor/results/reports
-          curl -fsS --retry 3 --retry-delay 5 https://result.liangzhinet.com/reports -o liangzhi-executor/results/reports.json
-          jq -r '.reports[].name' liangzhi-executor/results/reports.json | while IFS= read -r name; do
-            [ -n "$name" ] || continue
-            if curl -fsS --retry 2 --retry-delay 2 --get --data-urlencode "name=$name" https://result.liangzhinet.com/report -o "liangzhi-executor/results/reports/$name"; then
-              echo "fetched $name"
-            else
-              echo "skip $name"
-              rm -f "liangzhi-executor/results/reports/$name"
+          if [ "$GITHUB_EVENT_NAME" = "push" ]; then loops=36; else loops=1; fi
+          for i in $(seq 1 "$loops"); do
+            curl -fsS --retry 3 --retry-delay 2 https://result.liangzhinet.com/reports -o liangzhi-executor/results/reports.json
+            jq -r '.reports[].name' liangzhi-executor/results/reports.json | while IFS= read -r name; do
+              [ -n "$name" ] || continue
+              if curl -fsS --retry 2 --retry-delay 2 --get --data-urlencode "name=$name" https://result.liangzhinet.com/report -o "liangzhi-executor/results/reports/$name"; then
+                echo "fetched $name"
+              else
+                echo "skip $name"
+                rm -f "liangzhi-executor/results/reports/$name"
+              fi
+            done
+            git add liangzhi-executor/results
+            if ! git diff --cached --quiet; then
+              echo "new result detected on attempt $i"
+              break
             fi
+            if [ "$i" -lt "$loops" ]; then sleep 10; fi
           done
       - name: Commit result
         run: |
