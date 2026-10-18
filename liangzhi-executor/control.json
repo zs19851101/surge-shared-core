@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":42,
+  "seq":43,
   "task":"anime-v42-export-first5-pilot-candidates",
-  "note":"Retry once after seq41 produced no Result Bridge report. Runtime 51 manifest and task are present; seq40 health previously PASS. Read-only only: run Series identity guard then export concrete first 5-person pilot template; no Emby writes and no mature network data-plane changes."
+  "note":"V4.2 exporter hardened after seq41/42 produced no report. This run must always emit a summary, including diagnostics for missing/malformed local inputs. Read-only only: Series guard first; no Emby writes and no network changes."
 }
