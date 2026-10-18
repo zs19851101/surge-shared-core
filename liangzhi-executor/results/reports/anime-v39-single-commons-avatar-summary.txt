@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v39-single-commons-avatar-summary.txt",
+  "content": "日漫 V3.9 单一 Commons 头像候选\nstatus: PASS\ncandidate_count: 1\nperson_id: 80840\nname: None\ntmdb_id: 4055060\nwikidata: http://www.wikidata.org/entity/Q48472724\nimage: http://commons.wikimedia.org/wiki/Special:FilePath/Adam%20Gibbs%20%2855163669246%29.jpg\nscope: read-only-export\nemby_changes: none\nnetwork_changes: none\nseries_changes: none\n"
+}

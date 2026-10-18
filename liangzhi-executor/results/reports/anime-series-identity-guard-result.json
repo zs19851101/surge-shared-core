@@ -1,5 +1,5 @@
 {
   "ok": true,
   "name": "anime-series-identity-guard-result.json",
-  "content": "{\n  \"time\": \"2026-10-18T19:14:17.038540\",\n  \"baseline_series_count\": 100,\n  \"drift_count\": 0,\n  \"drift\": [],\n  \"status\": \"PASS\"\n}\n"
+  "content": "{\n  \"time\": \"2026-10-18T19:25:10.351849\",\n  \"baseline_series_count\": 100,\n  \"drift_count\": 0,\n  \"drift\": [],\n  \"status\": \"PASS\"\n}\n"
 }
