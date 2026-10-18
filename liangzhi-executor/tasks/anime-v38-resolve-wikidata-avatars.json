@@ -1,0 +1,1 @@
+{"id":"anime-v38-resolve-wikidata-avatars","steps":[{"script":"anime_series_identity_guard_verify.py","args":[]},{"script":"anime_v38_resolve_wikidata_avatars.py","args":[]}]}
