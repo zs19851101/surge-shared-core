@@ -36,8 +36,8 @@
     {"path": "tasks/setup-named-tunnel-local-v1.json", "sha256": ""},
     {"path": "tasks/create-named-tunnel-once-v1.json", "sha256": ""},
     {"path": "tasks/activate-existing-tunnel-local-v1.json", "sha256": ""},
-    {"path": "tasks/fix-tunnel_health_only_v1.json", "sha256": ""},
-    {"path": "tasks/end_to_end_probe_v1.json", "sha256": ""}
+    {"path": "tasks/fix-tunnel-health-only-v1.json", "sha256": ""},
+    {"path": "tasks/end-to-end-probe-v1.json", "sha256": ""}
   ],
   "tasks": {
     "anime-v28-safe": "tasks/anime-v28-safe.json",
@@ -54,8 +54,8 @@
     "setup-named-tunnel-local-v1": "tasks/setup-named-tunnel-local-v1.json",
     "create-named-tunnel-once-v1": "tasks/create-named-tunnel-once-v1.json",
     "activate-existing-tunnel-local-v1": "tasks/activate-existing-tunnel-local-v1.json",
-    "fix-tunnel-health-only-v1": "tasks/fix-tunnel_health_only_v1.json",
-    "end-to-end-probe-v1": "tasks/end_to_end_probe_v1.json"
+    "fix-tunnel-health-only-v1": "tasks/fix-tunnel-health-only-v1.json",
+    "end-to-end-probe-v1": "tasks/end-to-end-probe-v1.json"
   },
   "note": "Runtime 44 adds a read-only export of high-confidence empty Role targets using same-person, same-series, single-known-role evidence. Mature network data plane remains untouched."
 }
