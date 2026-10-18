@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 25,
-  "task": "anime-v34-classify-role-avatar-candidates",
-  "note": "Classify current anime Role/avatar audit into concrete candidate buckets for the next targeted cleanup. Read-only; no Emby writes; no network data-plane changes."
+  "seq": 26,
+  "task": "anime-v35-export-actionable-role-targets",
+  "note": "Export high-confidence empty Role targets using same-person, same-series, single-known-role evidence. Read-only; no Emby writes; no mature network data-plane changes."
 }
