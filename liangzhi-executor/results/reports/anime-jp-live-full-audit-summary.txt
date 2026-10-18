@@ -1,5 +1,0 @@
-{
-  "ok": true,
-  "name": "anime-jp-live-full-audit-summary.txt",
-  "content": "日漫 LIVE 全量只读审计｜2026-10-16T10:39:42.569945\n基础门禁: PASS\nseries_count: 100\nseason_count: 234\nepisode_count: 10814\nreferenced_actor_persons: 1104\nmissing_production_year: 0\nmissing_premiere_date: 0\nmissing_original_title: 0\nforeign_series_rows: 106\nforeign_season_rows: 0\nforeign_episode_rows: 6910\nduplicate_rows: 52\nlock_bad_rows: 11148\nmissing_primary_persons: 140\nperson_foreign_names: 98\nlowcast_series: 8\nmissing_core_series: 21\norder_review_series: 7\n"
-}

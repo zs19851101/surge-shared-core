@@ -1,5 +1,0 @@
-{
-  "ok": true,
-  "name": "result-gateway-setup-summary.txt",
-  "content": "LiangZhi Result Gateway V1\nlocal_health: PASS\nlocal_url: http://127.0.0.1:8765\ncloudflared_installed: False\nbrew_available: False\nexternal_exposure: False\nmode: read-only allowlisted summaries only\n"
-}
