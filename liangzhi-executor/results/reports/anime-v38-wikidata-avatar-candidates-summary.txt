@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v38-wikidata-avatar-candidates-summary.txt",
+  "content": "日漫 V3.8 Wikidata/Commons 头像候选\nstatus: PASS\ncandidate_people: 97\nwikidata_exact_matches: 32\nwith_commons_image: 1\nwithout_commons_image: 31\nerrors: 0\nevidence: exact TMDB person ID (P4985) -> Wikidata item -> P18 image\nscope: read-only-resolution\nemby_changes: none\nnetwork_changes: none\nseries_changes: none\n"
+}

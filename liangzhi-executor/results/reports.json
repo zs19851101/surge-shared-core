@@ -2,14 +2,19 @@
   "ok": true,
   "reports": [
     {
-      "name": "anime-v37-provider-avatar-plan-summary.txt",
-      "size": 230,
-      "mtime": 1792320736.814975
+      "name": "anime-v38-wikidata-avatar-candidates-summary.txt",
+      "size": 320,
+      "mtime": 1792321094.205644
     },
     {
       "name": "anime-series-identity-guard-result.json",
       "size": 130,
-      "mtime": 1792320722.5649855
+      "mtime": 1792321077.6643949
+    },
+    {
+      "name": "anime-v37-provider-avatar-plan-summary.txt",
+      "size": 230,
+      "mtime": 1792320736.814975
     },
     {
       "name": "anime-v36-avatar-probe-summary.txt",
