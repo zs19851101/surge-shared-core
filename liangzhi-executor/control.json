@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":32,
+  "seq":33,
   "task":"anime-v38-resolve-wikidata-avatars",
-  "note":"Resolve the 97 provider-backed missing-avatar people by exact TMDB Person ID to Wikidata P4985 and Commons P18. Read-only candidate resolution; no Emby writes and no mature network data-plane changes."
+  "note":"Minimal re-dispatch: seq32 Result Bridge completed successfully but anime-v38-wikidata-avatar-candidates-summary.txt was not produced. Re-run the existing read-only V3.8 exact TMDB Person ID -> Wikidata P4985 -> Commons P18 resolution. No Emby writes and no mature network data-plane changes."
 }
