@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":40,
-  "task":"anime-v33-automation-health",
-  "note":"Diagnostic only. Re-run the previously proven LocalExecutor/Result Bridge health probe to determine whether seq39 failed because runtime/task sync for runtime_version 51 did not land locally. Read-only; no Emby writes and no mature network data-plane changes."
+  "seq":41,
+  "task":"anime-v42-export-first5-pilot-candidates",
+  "note":"Resume Emby API pilot immediately after seq40 health PASS. Export the concrete first 5-person pilot template from existing local audit/prep data. Read-only only: run Series identity guard first; fill name-only / image-only / name-image / voice-cleanup / no-op only where evidence is sufficient; mark blocked slots explicitly; no Emby writes and no mature network data-plane changes."
 }
