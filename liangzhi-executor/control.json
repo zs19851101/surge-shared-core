@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":33,
-  "task":"anime-v38-resolve-wikidata-avatars",
-  "note":"Minimal re-dispatch: seq32 Result Bridge completed successfully but anime-v38-wikidata-avatar-candidates-summary.txt was not produced. Re-run the existing read-only V3.8 exact TMDB Person ID -> Wikidata P4985 -> Commons P18 resolution. No Emby writes and no mature network data-plane changes."
+  "seq":34,
+  "task":"anime-v39-export-single-commons-avatar",
+  "note":"Export the single exact TMDB Person ID -> Wikidata -> Commons avatar candidate from V3.8 for write preparation. Read-only; run Series identity guard first; no Emby writes and no mature network data-plane changes."
 }
