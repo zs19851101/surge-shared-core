@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":35,
-  "task":"anime-v39-export-single-commons-avatar",
-  "note":"Minimal re-dispatch: seq34 report has not appeared yet. Re-run the existing read-only V3.9 export of the single exact TMDB Person ID -> Wikidata -> Commons avatar candidate. Run Series identity guard first; no Emby writes and no mature network data-plane changes."
+  "seq":36,
+  "task":"anime-v40-prepare-single-commons-avatar",
+  "note":"Prepare the single exact Commons avatar candidate for safe write: verify live Emby Person 80840 still has TMDB 4055060, confirm Primary is absent, download and validate the exact Commons image, and create a local rollback backup. Run Series identity guard first. No Emby write yet and no mature network data-plane changes."
 }
