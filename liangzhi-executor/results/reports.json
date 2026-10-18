@@ -2,6 +2,11 @@
   "ok": true,
   "reports": [
     {
+      "name": "anime-v35-actionable-role-targets-summary.txt",
+      "size": 218,
+      "mtime": 1792299023.8876655
+    },
+    {
       "name": "anime-series-identity-guard-result.json",
       "size": 130,
       "mtime": 1792299009.5892804

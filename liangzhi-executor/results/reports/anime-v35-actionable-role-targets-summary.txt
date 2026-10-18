@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v35-actionable-role-targets-summary.txt",
+  "content": "日漫 V3.5 可执行空 Role 目标\nstatus: PASS\ntarget_rows: 0\ntarget_people: 0\ntarget_series: 0\nevidence: same-person-same-series-single-known-role\nscope: read-only-export\nnetwork_changes: none\nseries_changes: none\n"
+}
