@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":43,
+  "seq":44,
   "task":"anime-v42-export-first5-pilot-candidates",
-  "note":"V4.2 exporter hardened after seq41/42 produced no report. This run must always emit a summary, including diagnostics for missing/malformed local inputs. Read-only only: Series guard first; no Emby writes and no network changes."
+  "note":"Runtime bumped to 52 specifically to force local resync of hardened V4.2 exporter. Read-only: Series guard first, then export first-five pilot candidates or explicit diagnostics. No Emby writes and no mature network changes."
 }
