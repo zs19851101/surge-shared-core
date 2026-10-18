@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "runtime_version": 39,
+  "runtime_version": 40,
   "files": [
     {"path": "runtime/anime_v27_identity_audit.py", "sha256": ""},
     {"path": "runtime/anime_v28_evidence_plan.py", "sha256": ""},
@@ -8,6 +8,7 @@
     {"path": "runtime/anime_series_identity_guard_verify.py", "sha256": ""},
     {"path": "runtime/anime_v29_strong_provider_resolve.py", "sha256": ""},
     {"path": "runtime/anime_v30_apply_two_strong_names.py", "sha256": ""},
+    {"path": "runtime/anime_v31_export_next_candidates.py", "sha256": ""},
     {"path": "runtime/restore_result_gateway_routes_v2.py", "sha256": ""},
     {"path": "runtime/verify_anime_seq20_v1.py", "sha256": ""},
     {"path": "runtime/install_result_gateway_v1.py", "sha256": ""},
@@ -20,6 +21,7 @@
     {"path": "tasks/anime-v28-safe.json", "sha256": ""},
     {"path": "tasks/anime-v29-strong-resolve.json", "sha256": ""},
     {"path": "tasks/anime-v30-apply-two-strong-names.json", "sha256": ""},
+    {"path": "tasks/anime-v31-export-next-candidates.json", "sha256": ""},
     {"path": "tasks/restore-gateway-verify-seq20-and-refresh-anime.json", "sha256": ""},
     {"path": "tasks/setup-result-gateway-v1.json", "sha256": ""},
     {"path": "tasks/setup-cloudflared-local.json", "sha256": ""},
@@ -33,6 +35,7 @@
     "anime-v28-safe": "tasks/anime-v28-safe.json",
     "anime-v29-strong-resolve": "tasks/anime-v29-strong-resolve.json",
     "anime-v30-apply-two-strong-names": "tasks/anime-v30-apply-two-strong-names.json",
+    "anime-v31-export-next-candidates": "tasks/anime-v31-export-next-candidates.json",
     "restore-gateway-verify-seq20-and-refresh-anime": "tasks/restore-gateway-verify-seq20-and-refresh-anime.json",
     "setup-result-gateway-v1": "tasks/setup-result-gateway-v1.json",
     "setup-cloudflared-local": "tasks/setup-cloudflared-local.json",
@@ -42,5 +45,5 @@
     "fix-tunnel-health-only-v1": "tasks/fix-tunnel-health-only-v1.json",
     "end-to-end-probe-v1": "tasks/end-to-end-probe-v1.json"
   },
-  "note": "Public control manifest only. Runtime 39 adds a guarded recovery task that restores the Result Gateway read-only report routes, re-runs the seq20-safe anime person-name apply idempotently, verifies API readback and Series identity guard, then refreshes the read-only anime evidence audit. Data-plane network configuration remains out of scope."
+  "note": "Public control manifest only. Runtime 40 adds a read-only V3.1 candidate export for the next high-confidence anime refinement stage. Series identity and mature network data plane remain untouched."
 }
