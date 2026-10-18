@@ -2,6 +2,11 @@
   "ok": true,
   "reports": [
     {
+      "name": "anime-v33-automation-health-summary.txt",
+      "size": 272,
+      "mtime": 1792352351.2349153
+    },
+    {
       "name": "anime-v40-single-avatar-prep-summary.txt",
       "size": 348,
       "mtime": 1792323712.7947457
@@ -40,11 +45,6 @@
       "name": "anime-v34-role-avatar-candidates-summary.txt",
       "size": 233,
       "mtime": 1792298658.651027
-    },
-    {
-      "name": "anime-v33-automation-health-summary.txt",
-      "size": 272,
-      "mtime": 1792297624.727328
     },
     {
       "name": "anime-v32-role-avatar-summary.txt",
