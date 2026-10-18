@@ -10,14 +10,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch read-only reports index
+      - name: Fetch read-only reports
         run: |
-          mkdir -p liangzhi-executor/results
+          set -euo pipefail
+          mkdir -p liangzhi-executor/results/reports
           curl -fsS --retry 3 --retry-delay 5 https://result.liangzhinet.com/reports -o liangzhi-executor/results/reports.json
+          python3 - <<'PY'
+          import json, pathlib, urllib.parse, urllib.request
+          root=pathlib.Path('liangzhi-executor/results/reports')
+          data=json.loads(pathlib.Path('liangzhi-executor/results/reports.json').read_text())
+          for item in data.get('reports',[]):
+              name=item.get('name')
+              if not name: continue
+              url='https://result.liangzhinet.com/report?name='+urllib.parse.quote(name,safe='')
+              try:
+                  with urllib.request.urlopen(url, timeout=20) as r:
+                      body=r.read()
+                  (root/name).write_bytes(body)
+              except Exception as e:
+                  print('skip',name,repr(e))
+          PY
       - name: Commit result
         run: |
           git config user.name 'LiangZhi Result Bridge'
           git config user.email 'actions@users.noreply.github.com'
-          git add liangzhi-executor/results/reports.json
-          git diff --cached --quiet || git commit -m 'Update LiangZhi read-only report index'
+          git add liangzhi-executor/results
+          git diff --cached --quiet || git commit -m 'Update LiangZhi read-only reports'
           git push
