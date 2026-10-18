@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 28,
+  "seq": 29,
   "task": "anime-v36-probe-avatar-candidates",
-  "note": "Read-only probe of provider-backed missing-avatar candidates after v35 found zero safe empty-Role targets. No Emby writes; no mature network data-plane changes."
+  "note": "Retry V3.6 with bounded concurrent RemoteImages probing after seq28 passed Series guard but produced no v36 summary. Read-only; no Emby writes; no mature network data-plane changes."
 }
