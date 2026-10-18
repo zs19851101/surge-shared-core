@@ -2,14 +2,14 @@
   "ok": true,
   "reports": [
     {
+      "name": "anime-series-identity-guard-result.json",
+      "size": 130,
+      "mtime": 1792323698.1480384
+    },
+    {
       "name": "anime-v39-single-commons-avatar-summary.txt",
       "size": 349,
       "mtime": 1792323054.2479613
-    },
-    {
-      "name": "anime-series-identity-guard-result.json",
-      "size": 130,
-      "mtime": 1792323039.9465246
     },
     {
       "name": "anime-v38-wikidata-avatar-candidates-summary.txt",
