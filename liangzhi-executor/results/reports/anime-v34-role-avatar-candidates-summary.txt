@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v34-role-avatar-candidates-summary.txt",
+  "content": "日漫 V3.4 Role/头像候选分类\nstatus: PASS\ntotal_people: 456\navatar_provider_backed: 97\nsingle_role_empty_rows: 12\nmulti_role_empty_rows: 2\nreview: 345\nscope: read-only-classification\nnetwork_changes: none\nseries_changes: none\n"
+}
