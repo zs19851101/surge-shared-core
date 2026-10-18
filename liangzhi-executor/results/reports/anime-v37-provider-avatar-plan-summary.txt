@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v37-provider-avatar-plan-summary.txt",
+  "content": "日漫 V3.7 Provider 头像解析计划\nstatus: PASS\ncandidate_people: 97\ntmdb_people: 97\ntvdb_people: 2\nimdb_people: 32\nother_provider_people: 0\nscope: read-only-plan\nemby_changes: none\nnetwork_changes: none\nseries_changes: none\n"
+}
