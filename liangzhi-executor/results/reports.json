@@ -2,6 +2,11 @@
   "ok": true,
   "reports": [
     {
+      "name": "anime-v40-single-avatar-prep-summary.txt",
+      "size": 348,
+      "mtime": 1792323712.7947457
+    },
+    {
       "name": "anime-series-identity-guard-result.json",
       "size": 130,
       "mtime": 1792323698.1480384

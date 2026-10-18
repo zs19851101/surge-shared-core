@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v40-single-avatar-prep-summary.txt",
+  "content": "日漫 V4.0 单一头像写入准备\nstatus: FAIL\nperson_id: 80840\nlive_name: \nlive_tmdb: \nprimary_present: None\nimage_bytes: 0\nimage_sha256: \nbackup_written: False\nreason: HTTPError('404 Client Error: Not Found for url: http://192.168.100.198:8096/Items/80840')\nscope: write-prep-only\nemby_changes: none\nnetwork_changes: none\nseries_changes: none\n"
+}
