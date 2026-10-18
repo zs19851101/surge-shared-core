@@ -1,0 +1,1 @@
+{"id":"anime-v40-prepare-single-commons-avatar","steps":[{"script":"anime_series_identity_guard_verify.py","args":[]},{"script":"anime_v40_prepare_single_commons_avatar.py","args":[]}]}
