@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v36-avatar-probe-summary.txt",
+  "content": "日漫 V3.6 缺头像可执行性探针\nstatus: PASS\ncandidate_people: 97\nwith_remote_primary: 0\nexactly_one_remote_primary: 0\nerrors: 0\nscope: read-only-avatar-probe\nemby_changes: none\nnetwork_changes: none\nseries_changes: none\n"
+}
