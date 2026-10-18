@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 23,
-  "task": "anime-v32-summarize-role-avatar",
-  "note": "Read-only summarize current anime Role/avatar audit into an allowed Result Gateway summary. No Emby writes, no network data-plane changes."
+  "seq": 24,
+  "task": "anime-v33-automation-health",
+  "note": "Read-only end-to-end automation health probe after seq23. No Emby writes and no mature network data-plane changes."
 }
