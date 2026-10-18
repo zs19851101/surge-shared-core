@@ -1,0 +1,23 @@
+name: LiangZhi Result Bridge
+on:
+  push:
+    paths:
+      - 'liangzhi-executor/bridge-trigger.txt'
+permissions:
+  contents: write
+jobs:
+  fetch-result:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch read-only reports index
+        run: |
+          mkdir -p liangzhi-executor/results
+          curl -fsS --retry 3 --retry-delay 5 https://result.liangzhinet.com/reports -o liangzhi-executor/results/reports.json
+      - name: Commit result
+        run: |
+          git config user.name 'LiangZhi Result Bridge'
+          git config user.email 'actions@users.noreply.github.com'
+          git add liangzhi-executor/results/reports.json
+          git diff --cached --quiet || git commit -m 'Update LiangZhi read-only report index'
+          git push
