@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "runtime_version": 41,
+  "runtime_version": 42,
   "files": [
     {"path": "runtime/anime_v27_identity_audit.py", "sha256": ""},
     {"path": "runtime/anime_v28_evidence_plan.py", "sha256": ""},
@@ -10,6 +10,7 @@
     {"path": "runtime/anime_v30_apply_two_strong_names.py", "sha256": ""},
     {"path": "runtime/anime_v31_export_next_candidates.py", "sha256": ""},
     {"path": "runtime/anime_v32_summarize_manual_audit.py", "sha256": ""},
+    {"path": "runtime/anime_v33_automation_health.py", "sha256": ""},
     {"path": "runtime/restore_result_gateway_routes_v2.py", "sha256": ""},
     {"path": "runtime/verify_anime_seq20_v1.py", "sha256": ""},
     {"path": "runtime/install_result_gateway_v1.py", "sha256": ""},
@@ -24,6 +25,7 @@
     {"path": "tasks/anime-v30-apply-two-strong-names.json", "sha256": ""},
     {"path": "tasks/anime-v31-export-next-candidates.json", "sha256": ""},
     {"path": "tasks/anime-v32-summarize-role-avatar.json", "sha256": ""},
+    {"path": "tasks/anime-v33-automation-health.json", "sha256": ""},
     {"path": "tasks/restore-gateway-verify-seq20-and-refresh-anime.json", "sha256": ""},
     {"path": "tasks/setup-result-gateway-v1.json", "sha256": ""},
     {"path": "tasks/setup-cloudflared-local.json", "sha256": ""},
@@ -39,6 +41,7 @@
     "anime-v30-apply-two-strong-names": "tasks/anime-v30-apply-two-strong-names.json",
     "anime-v31-export-next-candidates": "tasks/anime-v31-export-next-candidates.json",
     "anime-v32-summarize-role-avatar": "tasks/anime-v32-summarize-role-avatar.json",
+    "anime-v33-automation-health": "tasks/anime-v33-automation-health.json",
     "restore-gateway-verify-seq20-and-refresh-anime": "tasks/restore-gateway-verify-seq20-and-refresh-anime.json",
     "setup-result-gateway-v1": "tasks/setup-result-gateway-v1.json",
     "setup-cloudflared-local": "tasks/setup-cloudflared-local.json",
@@ -48,5 +51,5 @@
     "fix-tunnel-health-only-v1": "tasks/fix-tunnel-health-only-v1.json",
     "end-to-end-probe-v1": "tasks/end-to-end-probe-v1.json"
   },
-  "note": "Public control manifest only. Runtime 41 adds a read-only summary task for the current anime Role/avatar audit. Series identity and mature network data plane remain untouched."
+  "note": "Runtime 42 adds a read-only automation health task. Result Bridge now auto-runs on control changes with scheduled fallback. Mature network data plane remains untouched."
 }
