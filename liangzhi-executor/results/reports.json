@@ -2,6 +2,11 @@
   "ok": true,
   "reports": [
     {
+      "name": "anime-series-identity-guard-result.json",
+      "size": 130,
+      "mtime": 1792299009.5892804
+    },
+    {
       "name": "anime-v34-role-avatar-candidates-summary.txt",
       "size": 233,
       "mtime": 1792298658.651027
@@ -15,11 +20,6 @@
       "name": "anime-v32-role-avatar-summary.txt",
       "size": 359,
       "mtime": 1792295229.434333
-    },
-    {
-      "name": "anime-series-identity-guard-result.json",
-      "size": 130,
-      "mtime": 1792292248.9003212
     },
     {
       "name": "anime-v29-strong-provider-resolve-summary.txt",
