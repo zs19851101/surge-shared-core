@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 27,
-  "task": "anime-v35-export-actionable-role-targets",
-  "note": "Retry the actionable empty Role export with fail-safe summary generation after seq26 passed the Series guard but produced no v35 summary. Read-only; no Emby writes; no mature network data-plane changes."
+  "seq": 28,
+  "task": "anime-v36-probe-avatar-candidates",
+  "note": "Read-only probe of provider-backed missing-avatar candidates after v35 found zero safe empty-Role targets. No Emby writes; no mature network data-plane changes."
 }
