@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v32-role-avatar-summary.txt",
+  "content": "日漫 V3.2 Role/头像审计汇总\nstatus: PASS\nissue_rows: 8938\nunique_problem_people: 456\nempty_role_rows: 1658\nlatin_role_rows: 5968\nmissing_avatar_rows: 1656\npeople_with_empty_role: 59\npeople_with_latin_role: 361\npeople_missing_avatar: 140\nsingle_role_people: 404\nmulti_role_people: 52\nscope: read-only-summary\nnetwork_changes: none\nseries_changes: none\n"
+}
