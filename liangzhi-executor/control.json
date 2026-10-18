@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":30,
+  "seq":31,
   "task":"anime-v37-provider-avatar-resolution-plan",
-  "note":"Emby RemoteImages probe completed PASS for 97 provider-backed missing-avatar people but returned zero usable Primary images. Build a read-only provider-ID resolution plan next; no Emby writes and no mature network data-plane changes."
+  "note":"Minimal re-dispatch: seq30 report was not produced although Result Bridge completed successfully. Re-run the existing read-only V3.7 provider-ID resolution plan; no Emby writes and no mature network data-plane changes."
 }
