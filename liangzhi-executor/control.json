@@ -1,6 +1,6 @@
 {
-  "schema": 1,
-  "seq": 29,
-  "task": "anime-v36-probe-avatar-candidates",
-  "note": "Retry V3.6 with bounded concurrent RemoteImages probing after seq28 passed Series guard but produced no v36 summary. Read-only; no Emby writes; no mature network data-plane changes."
+  "schema":1,
+  "seq":30,
+  "task":"anime-v37-provider-avatar-resolution-plan",
+  "note":"Emby RemoteImages probe completed PASS for 97 provider-backed missing-avatar people but returned zero usable Primary images. Build a read-only provider-ID resolution plan next; no Emby writes and no mature network data-plane changes."
 }
