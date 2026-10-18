@@ -15,21 +15,15 @@ jobs:
           set -euo pipefail
           mkdir -p liangzhi-executor/results/reports
           curl -fsS --retry 3 --retry-delay 5 https://result.liangzhinet.com/reports -o liangzhi-executor/results/reports.json
-          python3 - <<'PY'
-          import json, pathlib, urllib.parse, urllib.request
-          root=pathlib.Path('liangzhi-executor/results/reports')
-          data=json.loads(pathlib.Path('liangzhi-executor/results/reports.json').read_text())
-          for item in data.get('reports',[]):
-              name=item.get('name')
-              if not name: continue
-              url='https://result.liangzhinet.com/report?name='+urllib.parse.quote(name,safe='')
-              try:
-                  with urllib.request.urlopen(url, timeout=20) as r:
-                      body=r.read()
-                  (root/name).write_bytes(body)
-              except Exception as e:
-                  print('skip',name,repr(e))
-          PY
+          jq -r '.reports[].name' liangzhi-executor/results/reports.json | while IFS= read -r name; do
+            [ -n "$name" ] || continue
+            if curl -fsS --retry 2 --retry-delay 2 --get --data-urlencode "name=$name" https://result.liangzhinet.com/report -o "liangzhi-executor/results/reports/$name"; then
+              echo "fetched $name"
+            else
+              echo "skip $name"
+              rm -f "liangzhi-executor/results/reports/$name"
+            fi
+          done
       - name: Commit result
         run: |
           git config user.name 'LiangZhi Result Bridge'
