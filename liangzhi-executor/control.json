@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":36,
+  "seq":37,
   "task":"anime-v40-prepare-single-commons-avatar",
-  "note":"Prepare the single exact Commons avatar candidate for safe write: verify live Emby Person 80840 still has TMDB 4055060, confirm Primary is absent, download and validate the exact Commons image, and create a local rollback backup. Run Series identity guard first. No Emby write yet and no mature network data-plane changes."
+  "note":"Minimal re-dispatch after seq36 produced no mirrored V4.0 summary. Re-run write-preparation only: Series identity guard; verify live Emby Person 80840 still has TMDB 4055060; confirm Primary absent; download/validate exact Commons image; create rollback backup. No Emby write and no mature network data-plane changes."
 }
