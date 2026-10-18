@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "seq": 22,
-  "task": "anime-v31-export-next-candidates",
-  "note": "Read-only export of next high-confidence anime candidates after seq20/21 gates passed."
+  "seq": 23,
+  "task": "anime-v32-summarize-role-avatar",
+  "note": "Read-only summarize current anime Role/avatar audit into an allowed Result Gateway summary. No Emby writes, no network data-plane changes."
 }
