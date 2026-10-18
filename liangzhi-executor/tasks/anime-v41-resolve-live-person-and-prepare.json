@@ -1,0 +1,1 @@
+{"id":"anime-v41-resolve-live-person-and-prepare","steps":[{"script":"anime_series_identity_guard_verify.py","args":[]},{"script":"anime_v41_resolve_live_person_and_prepare.py","args":[]}]}
