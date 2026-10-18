@@ -1,0 +1,1 @@
+{"id":"anime-v37-provider-avatar-resolution-plan","steps":[{"script":"anime_series_identity_guard_verify.py","args":[]},{"script":"anime_v37_provider_avatar_resolution_plan.py","args":[]}]}
