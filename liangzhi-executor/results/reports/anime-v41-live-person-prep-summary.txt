@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v41-live-person-prep-summary.txt",
+  "content": "日漫 V4.1 实时人物解析与写入准备\nstatus: FAIL\nmatched_count: 0\nperson_id: \nlive_name: \nlive_tmdb: \nprimary_present: None\nimage_bytes: 0\nimage_sha256: \nbackup_written: False\nreason: RuntimeError('tmdb-live-match-count:0')\nscope: live-resolve-and-write-prep-only\nemby_changes: none\nnetwork_changes: none\nseries_changes: none\n"
+}

@@ -2,9 +2,19 @@
   "ok": true,
   "reports": [
     {
+      "name": "anime-v41-live-person-prep-summary.txt",
+      "size": 336,
+      "mtime": 1792386348.2152374
+    },
+    {
       "name": "anime-series-identity-guard-result.json",
       "size": 130,
-      "mtime": 1792380991.7590265
+      "mtime": 1792386346.5887928
+    },
+    {
+      "name": "anime-v42-first5-pilot-candidates-summary.txt",
+      "size": 398,
+      "mtime": 1792381076.9033222
     },
     {
       "name": "anime-v33-automation-health-summary.txt",

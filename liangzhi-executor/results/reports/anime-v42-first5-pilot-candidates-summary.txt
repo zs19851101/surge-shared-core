@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-v42-first5-pilot-candidates-summary.txt",
+  "content": "日漫 V4.2 首批 5 人联调候选导出\nstatus: PARTIAL\nblocked_slots: name-only,image-only,name-image,voice-cleanup,no-op\ndiagnostics: missing:anime-v29-strong-provider-resolve.json | missing:anime-v30-person-backup.json | missing:anime-v41-live-person-prep.json | missing:anime-final-role-avatar-audit.json\nscope: read-only-export\nemby_changes: none\nnetwork_changes: none\nseries_changes: none\n"
+}
