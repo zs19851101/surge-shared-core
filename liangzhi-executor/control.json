@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":46,
+  "seq":47,
   "task":"anime-v42-export-first5-pilot-candidates",
-  "note":"Executor/Result Bridge health confirmed PASS at seq45 (2026-10-19 06:34 local). Re-run V4.2 now that runtime 52 is deployed. Read-only only: Series identity guard first; exporter must emit PASS/PARTIAL/ERROR diagnostics; no Emby writes, no network changes, no Series identity changes."
+  "note":"Reconstructed Series identity baseline verified locally at 2026-10-19 11:36 with baseline_series_count=100, drift_count=0, status=PASS; historical guard also had 100/0/PASS. Re-run V4.2 now. Read-only only: Series identity guard first; exporter must emit PASS/PARTIAL/ERROR diagnostics; no Emby writes, no network changes, no Series identity changes."
 }
