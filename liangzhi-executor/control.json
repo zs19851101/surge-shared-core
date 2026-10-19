@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":50,
-  "task":"anime-v41-resolve-live-person-and-prepare",
-  "note":"Runtime 54 is published. Run read-only V4.1 live identity bridge for stale Person 80840 using the protected 100-Series anime baseline. Exact provider first; otherwise scan baseline Episode People for Adam Gibbs exact name or exact known roles. No Emby writes, no avatar upload, no Role changes, no Series changes, no network changes."
+  "seq":51,
+  "task":"anime-v49724-dryrun",
+  "note":"Run sealed 49724 voice-cleanup dry-run only. Require Series identity guard before and after, 24/24 target item hits, 24/24 exact old_role matches, all targets in Series 127761, and series-level counts consistent with 24 old + 24 already-correct roles. No Emby writes, no Role changes, no Person changes, no Series changes, no network changes."
 }
