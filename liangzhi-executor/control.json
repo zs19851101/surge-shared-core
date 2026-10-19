@@ -1,6 +1,6 @@
 {
   "schema":1,
-  "seq":48,
+  "seq":49,
   "task":"anime-v41-resolve-live-person-and-prepare",
-  "note":"Read-only live identity bridge for stale old Person 80840 / TMDB 4055060. Series guard first. Hardened V4.1 may fall back to cross-series known-role intersection across targeted works. No Emby writes, no avatar upload, no Role changes, no Series changes, no network changes."
+  "note":"Runtime 53 is now published. Re-run hardened read-only V4.1 live identity bridge for stale Person 80840. Series guard first. Use exact provider if present, otherwise cross-series known-role intersection. No Emby writes, no avatar upload, no Role changes, no Series changes, no network changes."
 }
