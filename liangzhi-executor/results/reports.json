@@ -2,6 +2,11 @@
   "ok": true,
   "reports": [
     {
+      "name": "anime-series-identity-guard-result.json",
+      "size": 130,
+      "mtime": 1792380991.7590265
+    },
+    {
       "name": "anime-v33-automation-health-summary.txt",
       "size": 272,
       "mtime": 1792362852.5440946
@@ -10,11 +15,6 @@
       "name": "anime-v40-single-avatar-prep-summary.txt",
       "size": 348,
       "mtime": 1792323712.7947457
-    },
-    {
-      "name": "anime-series-identity-guard-result.json",
-      "size": 130,
-      "mtime": 1792323698.1480384
     },
     {
       "name": "anime-v39-single-commons-avatar-summary.txt",
