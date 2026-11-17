@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "name": "anime-jp-foreign-classified-summary.txt",
+  "content": "日漫外文残余精确分类（只读）\n年份缺失: 0\n首播日期缺失: 0\nOriginalTitle缺失: 0\n\n真正疑似外文 Role 行: 994\n空白 Role 行: 1658\n短代码/正式代号候选: 71\n需身份核验的外文/假名姓名行: 812\n真正混合外文姓名行: 0\n假名混合姓名候选: 163\n唯一 Role 签名: 426\n唯一姓名签名: 98\n"
+}
